@@ -6,7 +6,11 @@
 	<modules>
 		<module>eureka</module>
 		<module>gateway</module>
-		<module>demo-service</module>
+		<module>credit-service</module>
+		<module>course-service</module>
+		<module>exam-service</module>
+		<module>config-server</module>
+		<module>services</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
