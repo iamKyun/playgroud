@@ -8,20 +8,15 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <artifactId>services</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
-    <modules>
-        <module>exam-service</module>
-        <module>course-service</module>
-        <module>credit-service</module>
-    </modules>
+    <artifactId>authentication-server</artifactId>
 
     <dependencies>
-       <dependency>
-           <groupId>org.springframework.cloud</groupId>
-           <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-       </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
@@ -39,4 +34,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>
