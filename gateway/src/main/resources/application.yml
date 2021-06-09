@@ -1,3 +1,7 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
     name: gateway
@@ -9,8 +13,3 @@ spring:
         locator:
           enabled: true #开启从注册中心动态创建路由的功能
           lower-case-service-id: true #使用小写服务名，默认是大写
-    consul:
-      host: localhost
-      port: 8500
-      config:
-        enabled: false
