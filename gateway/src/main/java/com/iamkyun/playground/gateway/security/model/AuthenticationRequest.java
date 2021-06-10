@@ -1,4 +1,4 @@
-package com.iamkyun.playground.security.model;
+package com.iamkyun.playground.gateway.security.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
