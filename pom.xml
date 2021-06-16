@@ -7,7 +7,6 @@
 		<module>discovery-server</module>
 		<module>gateway</module>
 		<module>services</module>
-		<module>authentication-server</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
