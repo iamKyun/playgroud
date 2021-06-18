@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-@RocketMQMessageListener(topic = "test-topic-1", consumerGroup = "my-consumer_test-topic-1")
-public class Topic1GM2MessageListener implements RocketMQListener<String> {
+@RocketMQMessageListener(topic = "topic-1", consumerGroup = "consumerGroup-1")
+public class Topic1GM1Listener implements RocketMQListener<String> {
     @Override
     public void onMessage(String message) {
-        log.info("received message: {}", message);
+        log.info("consumerGroup-1 : {}", message);
     }
 }
