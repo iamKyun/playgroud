@@ -7,10 +7,17 @@ spring:
     name: exam
   zipkin:
     base-url: http://localhost:9411/
-  datasource:
-    url: jdbc:mysql://127.0.0.1:3306/playground?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-    username: root
+    enabled: false
+  #  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/playground?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: 123456
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    sentinel:
+      master: mymaster
+      nodes: redis.server.1:26379,redis.server.2:26379,redis.server.3:26379
+      password: 123456
     password: 123456
-    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8300

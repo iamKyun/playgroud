@@ -7,10 +7,15 @@ spring:
     name: credit
   zipkin:
     base-url: http://localhost:9411/
-  datasource:
-    url: jdbc:mysql://127.0.0.1:3306/playground?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-    username: root
-    password: 123456
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    enabled: false
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/playground?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: 123456
+#    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8200
+rocketmq:
+  name-server: rocket.nameserver:9876
+  producer:
+    group: test-group
