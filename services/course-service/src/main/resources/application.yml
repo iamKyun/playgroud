@@ -2,14 +2,21 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+    enabled: false
 spring:
   application:
     name: course
   zipkin:
     base-url: http://localhost:9411/
+    enabled: false
   datasource:
     dynamic:
-      primary: master
+      hikari:
+        connection-test-query: SELECT 1
+        idle-timeout: 30000
+        max-lifetime: 120000
+        connection-timeout: 30000
+      primary: write
       strict: false
       datasource:
         write:
@@ -25,3 +32,7 @@ spring:
 
 server:
   port: 8100
+
+logging:
+  level:
+    com.baomidou.dynamic: debug
