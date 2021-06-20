@@ -19,8 +19,6 @@
 
     <properties>
         <rocketmq-starter.version>2.2.0</rocketmq-starter.version>
-        <mybatis-plus.version>3.4.3</mybatis-plus.version>
-        <dynamic-datasource.version>3.4.0</dynamic-datasource.version>
     </properties>
     <dependencyManagement>
         <dependencies>

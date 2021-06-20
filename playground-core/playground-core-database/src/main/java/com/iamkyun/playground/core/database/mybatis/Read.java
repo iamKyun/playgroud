@@ -1,4 +1,4 @@
-package com.iamkyun.playground.course.mybatis;
+package com.iamkyun.playground.core.database.mybatis;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 
@@ -11,6 +11,6 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@DS("write")
-public @interface Write {
+@DS("read")
+public @interface Read {
 }
