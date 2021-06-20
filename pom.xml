@@ -8,7 +8,7 @@
         <module>gateway</module>
         <module>services</module>
         <module>code-generator</module>
-        <module>playground-core</module>
+        <module>playground-starter</module>
         <module>simulator</module>
     </modules>
     <parent>
@@ -19,7 +19,7 @@
     </parent>
     <groupId>com.iamkyun.playground</groupId>
     <artifactId>playground-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>playground</name>
     <packaging>pom</packaging>
     <description>You are trying to build a rocket!</description>
@@ -28,7 +28,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring-cloud.version>2020.0.3</spring-cloud.version>
-        <playground-core-database.version>0.0.1-SNAPSHOT</playground-core-database.version>
+        <playground-database-starer.version>1.0.0-SNAPSHOT</playground-database-starer.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -41,8 +41,8 @@
             </dependency>
             <dependency>
                 <groupId>com.iamkyun.playground</groupId>
-                <artifactId>playground-core-database</artifactId>
-                <version>${playground-core-database.version}</version>
+                <artifactId>playground-database-starter</artifactId>
+                <version>${playground-database-starer.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -52,14 +52,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
     <repositories>
         <repository>
