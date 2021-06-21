@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.iamkyun.playground.core.database.DatabaseConfiguration
+  com.iamkyun.playground.starter.database.DatabaseConfiguration

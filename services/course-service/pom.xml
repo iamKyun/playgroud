@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.iamkyun.playground</groupId>
-            <artifactId>playground-database-starter</artifactId>
+            <artifactId>playground-starter-database</artifactId>
         </dependency>
         <!-- Swagger API文档 -->
         <dependency>

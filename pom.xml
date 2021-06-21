@@ -28,7 +28,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring-cloud.version>2020.0.3</spring-cloud.version>
-        <playground-database-starer.version>1.0.0-SNAPSHOT</playground-database-starer.version>
+        <playground-starter-database.version>1.0.0-SNAPSHOT</playground-starter-database.version>
+        <playground-starter-web.version>1.0.0-SNAPSHOT</playground-starter-web.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -41,8 +42,13 @@
             </dependency>
             <dependency>
                 <groupId>com.iamkyun.playground</groupId>
-                <artifactId>playground-database-starter</artifactId>
-                <version>${playground-database-starer.version}</version>
+                <artifactId>playground-starter-database</artifactId>
+                <version>${playground-starter-database.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.iamkyun.playground</groupId>
+                <artifactId>playground-starter-web</artifactId>
+                <version>${playground-starter-web.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

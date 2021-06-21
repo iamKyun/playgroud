@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>playground-database-starter</artifactId>
+    <artifactId>playground-starter-database</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>

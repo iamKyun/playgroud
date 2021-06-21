@@ -1,4 +1,4 @@
-package com.iamkyun.playground.core.database.mybatis;
+package com.iamkyun.playground.starter.database.mybatis;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 

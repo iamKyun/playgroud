@@ -1,4 +1,4 @@
-package com.iamkyun.playground.course.configuration;
+package com.iamkyun.playground.starter.web;
 
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.web.bind.MethodArgumentNotValidException;
