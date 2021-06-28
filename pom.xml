@@ -30,6 +30,7 @@
         <spring-cloud.version>2020.0.3</spring-cloud.version>
         <playground-starter-database.version>1.0.0-SNAPSHOT</playground-starter-database.version>
         <playground-starter-web.version>1.0.0-SNAPSHOT</playground-starter-web.version>
+        <playground-starter-redis.version>1.0.0-SNAPSHOT</playground-starter-redis.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -49,6 +50,11 @@
                 <groupId>com.iamkyun.playground</groupId>
                 <artifactId>playground-starter-web</artifactId>
                 <version>${playground-starter-web.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.iamkyun.playground</groupId>
+                <artifactId>playground-starter-redis</artifactId>
+                <version>${playground-starter-redis.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
