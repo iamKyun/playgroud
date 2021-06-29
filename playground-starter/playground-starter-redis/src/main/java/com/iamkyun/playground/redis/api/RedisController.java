@@ -1,4 +1,4 @@
-package com.iamkyun.playground.redis;
+package com.iamkyun.playground.redis.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
