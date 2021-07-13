@@ -1,4 +1,4 @@
-package com.iamkyun.playground.course.configuration;
+package com.iamkyun.playground.starter.web;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
