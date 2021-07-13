@@ -15,6 +15,10 @@
             <groupId>com.iamkyun.playground</groupId>
             <artifactId>playground-starter-database</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.iamkyun.playground</groupId>
+            <artifactId>credit-service-api</artifactId>
+        </dependency>
         <!-- Swagger API文档 -->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>

@@ -11,6 +11,8 @@
         <module>playground-starter</module>
         <module>simulator</module>
         <module>tools</module>
+        <module>apis</module>
+        <module>credit-service-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -34,6 +36,7 @@
         <playground-starter-redis.version>1.0.0-SNAPSHOT</playground-starter-redis.version>
         <tools.version>1.0.0-SNAPSHOT</tools.version>
         <hutool-all.version>5.6.7</hutool-all.version>
+        <credit-service-api.version>1.0.0-SNAPSHOT</credit-service-api.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -58,6 +61,11 @@
                 <groupId>com.iamkyun.playground</groupId>
                 <artifactId>playground-starter-redis</artifactId>
                 <version>${playground-starter-redis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.iamkyun.playground</groupId>
+                <artifactId>credit-service-api</artifactId>
+                <version>${credit-service-api.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.iamkyun.playground</groupId>
